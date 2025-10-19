@@ -1,0 +1,17 @@
+.footer{
+    margin-top: 100px;
+}
+.footerText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.terms{
+    display: flex;
+}
+.terms a{
+    margin-left: 15px;
+}
+p,a{
+    font-size: 15px;
+}

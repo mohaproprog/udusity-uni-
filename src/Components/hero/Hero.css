@@ -1,0 +1,30 @@
+.hero{
+    background-image: linear-gradient(rgba(36, 40, 44, 0.819),rgba(13, 14, 14, 0.681)),url(../Assets/hero.png);
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+
+}
+
+.heroText h2{
+    font-size: 50px;
+    font-family: "Berkshire Swash", serif;
+    color:var(--main-color);
+
+   
+}
+
+.heroText p{
+    margin-top: -40px;
+    
+}
+
+    

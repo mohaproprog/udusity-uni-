@@ -1,0 +1,63 @@
+.testimonials{
+    position: relative;
+    margin: 80px auto;
+    padding: 0 70px;
+
+}
+.testimonials .backArrow, .nextArrow{
+    background: var(--main-color);
+    border-radius: 50%;
+    padding: 10px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+
+} 
+.testimonials .backArrow{
+    left: 0;
+}
+.slider{
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.slider ul{
+    display: flex;
+    width: 197%;
+    /* overflow-x:scroll; */
+    list-style: none;
+    transition: 0.5s;
+
+
+    
+}
+.slider ul li{
+    width: 55%;
+    background: #b7b6e443;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+.userImg{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+.userImg img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+}
+.userInfo h3{
+    color: var(--main-color);
+}
+.userInfo span{
+    display: block;
+    margin-top: -20px;
+}
+.user p{
+    padding: 5px;
+}

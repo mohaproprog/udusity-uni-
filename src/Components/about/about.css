@@ -1,0 +1,60 @@
+.about{
+    display: flex;
+    gap: 4%;
+}
+
+.about .aboutLeft{
+    flex-basis: 40%;
+    position: relative;
+}
+.about .aboutLeft img:not(.playIcon){
+    width: 100%;
+}
+.aboutLeft  .playIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    background: rgba(0, 0, 255, 0.428);
+    border-radius: 50%;
+    padding: 0px;
+    animation-name: playIcon;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 1s;
+
+}
+
+@keyframes playIcon{
+    0%{
+        transform: translate(-50%,-50%) scale(1);
+        box-shadow: 0 0 0 0 rgba(0,0,255,0.4);
+    }
+    50%{
+        transform: translate(-50%,-50%) scale(1.12);
+        box-shadow: 0 0 0 10px rgba(0,0,255,0.06);
+    }
+    100%{
+        transform: translate(-50%,-50%) scale(1);
+        box-shadow: 0 0 0 0 rgba(0,0,255,0);
+    }
+}
+
+
+
+.about .aboutRight{
+    flex-basis:56%;
+    margin-top: -20px;
+
+}
+
+.aboutRight .titleP{
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.aboutRight h2{
+    margin-top: -20px;
+}

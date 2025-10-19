@@ -1,0 +1,25 @@
+.program{
+    min-height: 70vh;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.program p{
+    font-weight: 600;
+    color: var(--main-color);
+}
+.program h2{
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.program .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.program .img img{
+    width: 400px;
+    border-radius: 20px;
+}
