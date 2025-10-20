@@ -5,12 +5,14 @@
 
 .about .aboutLeft{
     flex-basis: 40%;
-    position: relative;
 }
 .about .aboutLeft img:not(.playIcon){
     width: 100%;
 }
-.aboutLeft  .playIcon{
+.leftImg{
+    position: relative;
+}
+.leftImg  .playIcon{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,4 +59,22 @@
 
 .aboutRight h2{
     margin-top: -20px;
+}
+
+/* vedio */
+.videoPlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #242424e4;
+    z-index: 100;
+}
+.aboutVideo{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 70%;
+    margin: auto;
 }

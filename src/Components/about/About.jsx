@@ -1,14 +1,49 @@
 import './about.css'
 import about from '../Assets/about.png'
 import play from '../Assets/play-icon.png'
+import playVedio from '../Assets/vedioPlay.mp4';
+import { useRef, useState } from 'react';
 
 
 function About() {
+    const videoRef = useRef(null);
+    const videoParentRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  function handlePlayToggle() {
+    if (!isPlaying) {
+      videoRef.current.play();
+      videoRef.current.style.display = "block";
+      setIsPlaying(true);
+      videoParentRef.current.style.display = "block";
+    }
+  }
+  function videoPause(){
+    setIsPlaying(false);
+    videoRef.current.style.display = "none";
+    videoRef.current.pause();
+    videoParentRef.current.style.display = "none";
+
+
+  }
+
   return (
     <div className='about'>
       <div className="aboutLeft">
-          <img src={about} alt="" />    
-          <img className='playIcon' src={play} alt="" />     
+        <div className="leftImg">
+          <img src={about} alt="" />
+          <img className='playIcon' src={play} alt="Play" onClick={handlePlayToggle} />
+          
+        </div>
+      </div>
+      <div className="videoPlay" onClick={videoPause} ref={videoParentRef} style={{ display: 'none' }}>
+        <video
+            ref={videoRef}
+            src={playVedio}
+            className="aboutVideo"
+            preload="metadata"
+            style={{ display: 'none' }} /* show/hide as you prefer */
+          />
       </div>
         
         <div className="aboutRight">
