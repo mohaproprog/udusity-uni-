@@ -16,6 +16,7 @@
 .logo{
     width: 120px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .navList{
@@ -28,18 +29,26 @@
 .navList ul{
     display: flex;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .navList ul li{
     margin-left: 20px;
 }
-
+.navList ul li:hover{
+    color: var(--main-color);
+}
 .navList Button{
     margin-right: 20px;
     margin-left: 20px;
+    cursor: pointer;
 
 }
-
+.navList Button:hover{
+    background: var(--main-color);
+    scale: 1.1;
+    
+}
 .sticky{
     display: flex;
     justify-content: space-between;

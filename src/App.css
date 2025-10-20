@@ -9,6 +9,7 @@ body{
 }
 a{
   text-decoration: none;
+  cursor: pointer;
 }
 ul{
   list-style: none;
@@ -16,4 +17,7 @@ ul{
 .container{
   padding-left: 10%;
   padding-right: 10%;
+}
+button{
+  cursor: pointer;
 }
