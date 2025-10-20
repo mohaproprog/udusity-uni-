@@ -1,4 +1,4 @@
-import './Program.css'
+import './program.css'
 import Program1 from '../Assets/program-1.png'
 import Program2 from '../Assets/program-2.png'
 import Program3 from '../Assets/program-3.png'
