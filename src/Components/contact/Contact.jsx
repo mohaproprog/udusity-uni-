@@ -3,8 +3,33 @@ import phone from '../Assets/phone-icon.png';
 import address from '../Assets/location-icon.png';
 import gmail from '../Assets/mail-icon.png';
 import Messege from '../Assets/msg-icon.png';
+import { useState } from 'react';
 
 function Contact() {
+  const [result, setResult] = useState();
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "3a255173-5523-47af-9e60-f1f8f39e6912");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  }
   return (
     <div className="contact">
         <div className="contactLeft">
@@ -17,15 +42,20 @@ function Contact() {
             <p><img src={address} alt="" />10 lamnsdown road kingswood <br />Bristol,United Kingdom</p>
 
         </div>
-        <form action="" className='contactRight'>
+        <div className="contactRight">
+          <form onSubmit={onSubmit} className='contactForm'>
             <label >Your Name</label>
             <input type="text" placeholder='Enter your name' required />
             <label >Your phone number </label>
-            <input type="text" placeholder='Enter your phone number' required/>
+            <input type="number" placeholder='Enter your phone number' required/>
             <label > write Your messsege here</label>
             <textarea name="messege"placeholder='Write your messege' required></textarea>
             <button type='submit'>Submit Now</button>
         </form>
+        <span>{result}</span>
+
+        </div>
+        
     </div>
   )
 }

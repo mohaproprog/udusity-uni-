@@ -21,30 +21,30 @@
     width: 20px;
 }
 
-.contactRight{
+.contactForm{
     display: flex;
     flex-direction: column;
     width: 500px;
 
 }
-.contactRight label{
+.contactForm label{
     color: rgba(0, 0, 0, 0.48);
     font-size: 13px;
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
-.contactRight input,textarea{
+.contactForm input,textarea{
     padding: 10px;
     border-radius: 10px;
     background: rgba(155, 155, 225, 0.418);
     border: none;
     outline: none;
 }
-.contactRight textarea{
+.contactForm textarea{
     min-height: 100px;
 }
-.contactRight button{
+.contactForm button{
     padding: 10px;
     border: none;
     outline: none;
@@ -55,17 +55,20 @@
     color: #fff;
     font-weight: 600;
 }
+span{
+    font-size: 10px;
+}
 
 @media (max-width:558px){
     .contact{
         flex-direction: column;
     }
-    .contactRight{
+    .contactForm{
         max-width: 80%;
 
 
     }
-    .contactRight button{
+    .contactForm button{
         padding: 4px 3px;
         font-size: 12px;
     }
