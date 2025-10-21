@@ -29,6 +29,7 @@
 
 .navList ul{
     display: flex;
+    align-items: center;
     padding-left: 20px;
     cursor: pointer;
     position: relative;
@@ -40,10 +41,20 @@
 .navList ul li:hover{
     color: var(--main-color);
 }
-.navList Button{
-    margin-right: 20px;
+.navList ul Button{
+    padding: 8px 12px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 5px;
+    font-family: "Inter", sans-serif;
     margin-left: 20px;
-    cursor: pointer;
+
 
 }
 .navList Button:hover{

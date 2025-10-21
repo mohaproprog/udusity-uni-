@@ -1,4 +1,5 @@
 import './Navbar.css'
+import { Link, Element } from 'react-scroll';
 import Logo from '../Assets/logo.png' // Import the logo image
 import menu from '../Assets/menu-icon.png' // Import the logo image
 import Button from '../SmallComponents/Button.jsx';
@@ -29,12 +30,12 @@ const Navbar = () => {
         <div className='navList'>
           <img className='menu' src={menu} alt="" onClick={showToggleHandlwe} />
             <ul className={showToggle? "showToggleNav" : ""}>
-            <li>Home</li>
-            <li>Program</li>
-            <li>About us</li>
-            <li>Campus</li>
-            <li>Testimonials</li>
-            <Button text={"Contact us"}/>
+            <li><Link to="hero" smooth={true} duration={500}>Home</Link></li>
+            <li><Link to="program" smooth={true} duration={500} offset={-240}>Program</Link></li>
+            <li><Link to="about" smooth={true} duration={500} offset={-100}>About us</Link></li>
+            <li><Link to="gallery" smooth={true} duration={500} offset={-190}>Campus</Link></li>
+            <li><Link to="testimonials" smooth={true} duration={500} offset={-260}>Testimonials</Link></li>
+            <button className=''><Link to="contact" smooth={true} duration={500}>Contact</Link></button>
         </ul>
         
         </div>
