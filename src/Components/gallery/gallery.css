@@ -37,8 +37,12 @@
 @media (max-width:956px){
     .galleryBtn{
         padding: 8px 10px;
+        font-size: 12px;
 
 
+    }
+    .galleryBtn img{
+        width: 20px;
     }
     .galleryUp{
         display: grid;

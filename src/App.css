@@ -27,3 +27,7 @@ button{
     padding: 2%;
   }
 }
+
+body{
+  overflow-x: hidden;
+}
