@@ -1,7 +1,8 @@
 .about{
     display: flex;
     gap: 4%;
-    margin-top: -130px;
+    margin-top: 50px;
+    
 }
 
 .about .aboutLeft{
@@ -49,7 +50,6 @@
 
 .about .aboutRight{
     flex-basis:56%;
-    margin-top: -20px;
 
 }
 
@@ -59,7 +59,7 @@
 }
 
 .aboutRight h2{
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 /* vedio */
@@ -84,9 +84,7 @@
 /* ----------media-----queries---------- */
 
 @media (max-width:1260px){
-    .about{
-        margin-top: -90px;
-    }
+    
 }
 @media (max-width:1078px){
     .about .aboutLeft{
@@ -96,12 +94,12 @@
 @media (max-width:952px){
     .about {
         flex-direction: column-reverse;
-        margin-top: -150px;
+        
     }
 }
 @media (max-width:900px){
     .about {
         flex-direction: column-reverse;
-        margin-top: -150px;
+        
     }
 }

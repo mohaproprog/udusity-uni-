@@ -1,5 +1,5 @@
 .program{
-    min-height: 70vh;
+    /* min-height: 70vh; */
     text-align: center;
     margin-top: 50px;
 }
@@ -83,9 +83,7 @@
         flex-direction: column;
 
     }
-    .program{
-        margin-bottom: 180px;
-    }
+
     
 }
 @media (max-width:354px){
