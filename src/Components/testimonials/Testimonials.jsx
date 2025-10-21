@@ -56,11 +56,11 @@ function Testimonials() {
 
                             <img src={user2} alt="" />
                             <div className="userInfo">
-                                <h3>Daniel Kim</h3>
-                                <span>Seoul, South Korea</span>
+                                <h3>Ahmed Ali</h3>
+                                <span>Nairobi, Kenya</span>
                             </div>
                             </div>
-                            <p>Campus resources and collaborative labs made learning engaging. The support from faculty and fellow students turned challenges into real learning experiences.</p>
+                            <p>The professors here are deeply committed and the curriculum balances theory with hands-on projects. My internship opportunities helped me grow professionally and personally.</p>
                         </div>
                     </div>
                 </li>
@@ -71,11 +71,11 @@ function Testimonials() {
 
                             <img src={user3} alt="" />
                             <div className="userInfo">
-                                <h3>Priya Reddy</h3>
-                                <span>Hyderabad, India</span>
+                                <h3>Samiiro Abdi</h3>
+                                <span>Mombai,india</span>
                             </div>
                             </div>
-                            <p>Academic rigor paired with community initiatives shaped my outlook. I gained practical skills through projects that prepared me for the workforce.</p>
+                            <p>The professors here are deeply committed and the curriculum balances theory with hands-on projects. My internship opportunities helped me grow professionally and personally.</p>
                         </div>
                     </div>
                 </li>
@@ -86,14 +86,15 @@ function Testimonials() {
 
                             <img src={user4} alt="" />
                             <div className="userInfo">
-                                <h3>Lucas Martínez</h3>
-                                <span>Lima, Peru</span>
+                                <h3>Abdi Warsame</h3>
+                                <span>Mogadishu,Somalia</span>
                             </div>
                             </div>
-                            <p>The diverse student body and active clubs made campus life vibrant. Professors encouraged curiosity and provided mentorship beyond the classroom.</p>
+                            <p>The professors here are deeply committed and the curriculum balances theory with hands-on projects. My internship opportunities helped me grow professionally and personally.</p>
                         </div>
                     </div>
                 </li>
+                
             </ul>
         </div>
     </div>

@@ -1,6 +1,7 @@
 .about{
     display: flex;
     gap: 4%;
+    margin-top: 50px;
 }
 
 .about .aboutLeft{
@@ -77,4 +78,30 @@
     top: 15%;
     width: 70%;
     margin: auto;
+}
+
+
+/* ----------media-----queries---------- */
+
+@media (max-width:1254px){
+    .about{
+        margin-top: -60px;
+    }
+}
+@media (max-width:1078px){
+    .about .aboutLeft{
+        flex-basis: 60%;
+    }
+}
+@media (max-width:900px){
+    .about {
+        flex-direction: column-reverse;
+        margin-top: -150px;
+    }
+}
+@media (max-width:900px){
+    .about {
+        flex-direction: column-reverse;
+        margin-top: -150px;
+    }
 }

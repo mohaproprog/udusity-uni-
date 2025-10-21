@@ -12,3 +12,10 @@
     font-size: 16px;
     margin-bottom: -25px;
 }
+
+/* ---media------- */
+@media (max-width:900px){
+    .title h2{
+        font-size: 20px;
+    }
+}

@@ -21,3 +21,9 @@ ul{
 button{
   cursor: pointer;
 }
+
+@media (max-width:1290px){
+  .container{
+    padding: 2%;
+  }
+}

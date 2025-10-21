@@ -33,3 +33,21 @@
     width: 25px;
 
 }
+
+@media (max-width:956px){
+    .galleryBtn{
+        padding: 8px 10px;
+
+
+    }
+    .galleryUp{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        margin: auto;
+    }
+    
+    
+
+
+}
