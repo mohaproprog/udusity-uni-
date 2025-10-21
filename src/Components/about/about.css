@@ -1,7 +1,7 @@
 .about{
     display: flex;
     gap: 4%;
-    margin-top: 50px;
+    margin-top: -130px;
 }
 
 .about .aboutLeft{
