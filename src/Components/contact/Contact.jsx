@@ -42,7 +42,7 @@ function Contact() {
             <p><img src={address} alt="" />10 lamnsdown road kingswood <br />Bristol,United Kingdom</p>
 
         </div>
-        <div className="contactRight">
+        
           <form onSubmit={onSubmit} className='contactForm'>
             <label >Your Name</label>
             <input type="text" placeholder='Enter your name' required />
@@ -54,7 +54,7 @@ function Contact() {
         </form>
         <span>{result}</span>
 
-        </div>
+        
         
     </div>
   )

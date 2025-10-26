@@ -63,26 +63,16 @@ span{
     .contact{
         flex-direction: column;
     }
-    .contactForm{
-        max-width: 75%;
+}
+@media (max-width:549px){
+    .contactLeft{
+        min-width: 75%;
         margin: auto;
 
-
     }
-    .contactForm button{
-        padding: 4px 3px;
-        font-size: 12px;
-    }
-    .contactLeft p img{
-        width: 17px;
-    }
-    .contactLeft h3 img{
-        width: 18px;
-    }
-    .contactLeft h3{
-        font-size: 16px;
-    }
-    .contactLeft p{
-        font-size: 13px;
+    .contactForm{
+        max-width: 55%;
+        margin: auto;
+        
     }
 }
