@@ -62,59 +62,6 @@
     padding: 5px;
 }
 
-
-/* -------media---queriez----- */
-/* @media(max-width:900px){
-    .testimonials .backArrow, .nextArrow {
-        padding: 7px;
-        width: 15px;
-    }
-    .slider ul{
-        width: 170%;
-    }
-    .slider ul li{
-        padding-left: 30px;
-    }
-
-}
-@media(max-width:7540px){
-    .userImg img{
-    width: 30px;
-    height: 30px;
-}
-.userInfo h3{
-    font-size: 15px;
-}
-.userInfo span{
-    font-size: 10px;
-}
-.user p{
-    font-size: 15px;
-}
-    
-
-}
-
-@media(max-width:608px){
-    .testimonials  {
-       padding: 0 30px;
-    }
-    .user p{
-    font-size: 10px;
-}
-.userInfo h3{
-    font-size: 10px;
-    margin-bottom: 19px;
-}
-.userInfo span{
-    font-size: 8px;
-    
-}
-        
-
-
-} */
-
 @media (max-width:870px){
     .testimonials{
         padding: 0 40px;
@@ -141,8 +88,9 @@
 
 @media (max-width:450px){
     .testimonials{
-        padding: 0 10px;
-        margin: -20px;
+        padding: 0 20px 0 0px;
+        margin: auto;
+        overflow-x: hidden;
     }
     .testimonials .backArrow, .nextArrow{
         display: none;
