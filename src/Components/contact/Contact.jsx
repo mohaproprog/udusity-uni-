@@ -51,8 +51,9 @@ function Contact() {
             <label > write Your messsege here</label>
             <textarea name="messege"placeholder='Write your messege' required></textarea>
             <button type='submit'>Submit Now</button>
+            <span>{result}</span>
         </form>
-        <span>{result}</span>
+        
 
         
         

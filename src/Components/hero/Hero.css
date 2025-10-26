@@ -14,7 +14,7 @@
 
 }
 
-.heroText h2{
+.heroText h2, h2 span{
     font-size: 50px;
     font-family: "Berkshire Swash", serif;
     color:var(--main-color);
@@ -40,6 +40,10 @@
         width: 90%;
         margin: -100px  auto 0;
         color: #fff;
+    }
+    .heroText h2 span{
+        color: var(--main-color);
+        
     }
     .hero button{
         margin-top: 20px;
