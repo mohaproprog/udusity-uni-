@@ -59,12 +59,13 @@ span{
     font-size: 10px;
 }
 
-@media (max-width:558px){
+@media (max-width:758px){
     .contact{
         flex-direction: column;
     }
     .contactForm{
-        max-width: 80%;
+        max-width: 75%;
+        margin: auto;
 
 
     }

@@ -3,6 +3,7 @@
 }
 
 body{
+  overflow-x: hidden;
   margin: auto;
   font-family: "Poppins", sans-serif;
   
@@ -28,6 +29,3 @@ button{
   }
 }
 
-body{
-  overflow-x: hidden;
-}
